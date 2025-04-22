@@ -11,12 +11,12 @@ header('Content-Type: text/html; charset=iso-8859-1');
 
 
 
-echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
+echo 'Versao Atual do PHP: ' . phpversion(1.0) . '<br>';
 
-$servername = "54.234.153.24";
+$servername = "192.168.15.14";
 $username = "root";
 $password = "Senha123";
-$database = "meubanco";
+$database = "banco1";
 
 // Criar conexão
 
